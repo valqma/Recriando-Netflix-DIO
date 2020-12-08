@@ -1,0 +1,29 @@
+@media screen and (max-width:700px){ 
+/*quando a tela estiver no máximo 700px aplicar a regra formatacao */
+
+    header .container{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .botao{
+        margin-top: 5px;
+        width: 190px;
+        height: 200px;
+    }
+
+}
+
+@media screen and (min-width:1000px){
+    /*quando a tela tiver no minimo 1000px o texto ficará concentrado na esquerda
+    não espalhado na tela*/ 
+
+    .descricao{
+        width: 80%; /* neste caso ficará em 50% da tela*/
+    }
+
+
+}
+
+
+
